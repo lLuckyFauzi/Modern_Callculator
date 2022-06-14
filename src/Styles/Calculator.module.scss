@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;500&display=swap');
+
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #f1f3f3;
+    padding: 0;
+    margin: 0;
+
+    .calculator {
+        width: 390px;
+        background-color: #ffff;
+        border-radius: 30px;
+        padding: 20px;
+        position: relative;
+
+        .display {
+            max-width: 100%;
+            padding: 30px;
+            display: flex;
+            justify-content: flex-end;
+            color: rgb(2, 2, 2);
+            font-size: 30px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+
+            & span {
+                color: rgb(49, 49, 49);
+                font-size: 16px;
+                margin-right: 5px;
+                font-family: "Montserrat";
+                font-weight: 500;
+            }
+        }
+
+        .operators {
+            background-color: rgba(51, 49, 49, 0.067);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+
+            .ops {
+                display: flex;
+                justify-content: center;
+
+            .button {
+                margin: 10px;
+                padding: 10px;
+                height: 40px;
+                width: 45px;
+                font-size: 16px;
+                font-family: 'Montserrat';
+                border: none;
+                border-radius: 10px;
+                background-color: #f1f3f36b;
+                box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+                transition: 0.2s;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(53, 52, 52);
+                    color: white;
+                    box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+                }
+            }
+            }
+
+            .secOps {
+                .button {
+                    margin: 10px;
+                    padding: 10px;
+                    height: 40px;
+                    font-size: 16px;
+                    font-family: 'Montserrat';
+                    border: none;
+                    border-radius: 10px;
+                    background-color: #f1f3f36b;
+                    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+                    transition: 0.2s;
+                    cursor: pointer;
+    
+                    &:hover {
+                        background-color: rgb(53, 52, 52);
+                        color: white;
+                        box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+                    }
+                }
+            }
+
+        }
+
+        .digits {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            
+            .button {
+                margin: 10px;
+                padding: 10px;
+                height: 40px;
+                width: 45px;
+                font-size: 16px;
+                font-family: 'Montserrat';
+                border: none;
+                border-radius: 10px;
+                background-color: #f1f3f36b;
+                box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+                transition: 0.2s;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(53, 52, 52);
+                    color: white;
+                    box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+                }
+            }
+
+
+        }
+
+        
+    }
+}

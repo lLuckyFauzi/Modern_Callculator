@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;500&display=swap");
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f1f3f3;
+  padding: 0;
+  margin: 0;
+}
+
+.App .calculator {
+  width: 390px;
+  background-color: #ffff;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+.App .calculator .display {
+  max-width: 100%;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #020202;
+  font-size: 30px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.App .calculator .display span {
+  color: #313131;
+  font-size: 16px;
+  margin-right: 5px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.App .calculator .operators {
+  background-color: rgba(51, 49, 49, 0.067);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .calculator .operators .ops {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .calculator .operators .ops .button {
+  margin: 10px;
+  padding: 10px;
+  height: 40px;
+  width: 45px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f3f36b;
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+          box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.App .calculator .operators .ops .button:hover {
+  background-color: #353434;
+  color: white;
+  -webkit-box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+          box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+}
+
+.App .calculator .operators .secOps .button {
+  margin: 10px;
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f3f36b;
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+          box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.App .calculator .operators .secOps .button:hover {
+  background-color: #353434;
+  color: white;
+  -webkit-box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+          box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+}
+
+.App .calculator .digits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.App .calculator .digits .button {
+  margin: 10px;
+  padding: 10px;
+  height: 40px;
+  width: 45px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f3f36b;
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+          box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.App .calculator .digits .button:hover {
+  background-color: #353434;
+  color: white;
+  -webkit-box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+          box-shadow: inset 0px 0px 25px 1px rgba(0, 0, 0, 0.129);
+}
+/*# sourceMappingURL=Calculator.module.css.map */
